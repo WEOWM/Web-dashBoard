@@ -8,10 +8,8 @@ const IndexRouter = () => {
     <div >
         <Routes>
             <Route path='/'element={<Default/>}>
-            <Route path='/dashbord' element={<DashBoard/>}/>
-
+              <Route path='/dashboard' element={<DashBoard/>}/>
             </Route>
-           
         </Routes>
       
     </div>
